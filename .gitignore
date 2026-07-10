@@ -1,0 +1,11 @@
+# AIM Race Studio raw binary files — too large for git, useless without Race Studio
+# Store locally; commit only .csv/.xlsx exports
+*.xrk
+*.xrz
+*.rrk
+*.gpk
+*.drk
+*.bak
+
+# Original zip archives
+*.zip

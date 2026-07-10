@@ -2,6 +2,23 @@
 
 > Сырые данные с велокомпьютера AIM (AiM Solo / MXm / EVO4s и т.д.) и экспорты для анализа.
 
+## ⚠️ Важно для git
+**Сырые `.xrk` (и `.bak/.drk/.gpk/.rrk/.xrz`) в git НЕ коммитим** — они в `.gitignore`. Это тяжёлые бинарники (12-35 МБ каждый), бесполезные без AIM Race Studio. Они лежат локально в этой папке. В git идём только `.csv`/`.xlsx` экспорты из Race Studio.
+
+## Имеющиеся сессии
+
+### Я (Кирилл)
+| Трек | Сессия | Локальный путь | Примечание |
+|---|---|---|---|
+| МРВ | mrw 2025 best | `me/mrw/Kir_V2_Moscow_Generic testing_a_0308.xrk` | PB 1:40.6 |
+| Игоря | igora 2026 best | `me/igora/Kir_V2_Igora_Generic testing_a_0513.xrk` | |
+
+### Антон Фёдоров (референс)
+| Трек | Сессия | Локальный путь | Примечание |
+|---|---|---|---|
+| МРВ | mrw 2025 | `anton/mrw/Fedorov Anton_Ducati Panigale V2_Moscow_Race_a_1385.xrk` | 1:39 |
+| Игоря | igora 2025 | `anton/igora/Fedorov_Anton_Ducati_Panigale_V2_Igora_2022_Generic_testing_a_1327.xrk` | |
+
 ## ⚠️ Важно: вес пилотов для сравнения телеметрии
 
 | Пилот | Вес | Целевое время (МРВ) |
