@@ -9,3 +9,6 @@
 
 # Original zip archives
 *.zip
+
+# macOS
+.DS_Store
