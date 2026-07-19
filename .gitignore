@@ -10,5 +10,9 @@
 # Original zip archives
 *.zip
 
+# Сырые телеметрийные CSV (тяжёлые, 8+ МБ каждый) — только локально.
+# Анализ (скрипт + отчёт) коммитим, сырые данные — нет.
+engineering/data/telemetry/**/*.csv
+
 # macOS
 .DS_Store
